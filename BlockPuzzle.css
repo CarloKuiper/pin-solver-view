@@ -1,0 +1,64 @@
+.App-link {
+    color: #61dafb;
+}
+
+.Board {
+    width: 100%;
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+.BluePin {
+    color: blue;
+}
+
+.BlockPuzzle {
+    text-align: center;
+}
+
+.Empty {
+    visibility: hidden;
+}
+
+.RedBlock {
+    background-color: red;
+}
+
+.RedPin {
+    color: red;
+}
+
+.Piece {
+    empty-cells: hide;
+    padding: 10px;
+}
+
+.YellowPinBlueBackground {
+    background-color: blue;
+    color: yellow;
+}
+
+.PieceContainer{
+}
+
+.Block, .BlockEmpty {
+    border: 5px solid black;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+
+.BlockEmpty {
+    opacity: 0;
+}
+
+.Cursor {
+    display: flex;
+    float: left;
+    position: absolute;
+}
