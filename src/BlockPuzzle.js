@@ -51,7 +51,7 @@ class BlockPuzzle extends Component {
     }
 
     extradiv(id) {
-        return (id % 4 == 0) ? '</div><div>' : ''
+        return (id % 4 === 0) ? '</div><div>' : ''
     }
 
 
